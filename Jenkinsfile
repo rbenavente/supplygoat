@@ -18,8 +18,5 @@ pipeline {
             }
         }
     }
-    options {
-        preserveStashes()
-        timestamps()
-    }
+
 }
