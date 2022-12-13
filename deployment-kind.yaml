@@ -20,6 +20,7 @@ spec:
             cpu: "30m"
         ports:
         - containerPort: 80
+        
       # Custom Stuff
         securityContext:
           privileged: true
